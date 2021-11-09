@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Roboto ,"sans-serif" ;
+}
+/*header-top section css start*/
+.header-top{
+    background: #1a1a1a;
+    height: 82px;
+}
+.header-top .header-t-h1{
+    color: #fabf2c;
+    font-size: 39px;
+    font-weight: 800;
+}
+
+.header-top .header-t-p{
+    color: #5b5b5b;
+    font-size: 14px;
+    margin-right: 129px;
+    font-weight: 600;
+
+}
+.header-top .header-t-ul{
+     padding-top: 8px;
+}
+.header-top .fa-star,.header-top .fa-fire,.header-top .fa-chart-line{
+    color: #fabf2c;
+    font-size: 35px;
+    padding: 10px;
+
+}
+.header-top .header-t-p1{
+    color: #5b5b5bc9;
+    font-size: 12px;
+    margin-top: 4px;
+}
+/*header-top section css end*/
+
+/*header-middle section css start*/
+.header-middle{
+    background: #fabf2c;
+    /*padding-top: 20px;*/
+}
+.header-middle .header-middle-a{
+    font-size: 13px;
+}
+.header-middle .header-middle-a1{
+    background: #F7C775;
+    font-size: 13px;
+
+}
+/*header-middle section css end*/
+
+
+/*header-bottom section css start*/
+.header-bottom{
+    background: #262626;
+    padding-top: 5px;
+    text-align: center;
+}
+.header-bottom .header-bottom-2{
+    display: flex;
+}
+.header-bottom img{
+    height: 81px;
+    width: 100%;
+}
+.header-bottom h5{
+    font-size: 9px;
+    color: #ffffff;
+    margin-top: 3px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/*banner section css start*/
+.banner{
+    background: #1a1a1a;
+
+}
+.banner strong{
+    font-size: 18px;
+    color: #ffffff;
+}
+/*.banner .banner-2{*/
+    /*display: flex;*/
+    /*margin-top: 2px;*/
+/*}*/
+.banner .b1-img{
+    width: 953px;
+    height: 502px;
+}
+.banner .b2-img{
+    width: 484px;
+    height: 251px;
+}
+/*banner section css end*/
+
+
+/*banner-bottom section css end*/
+.banner-bottom{
+    background: #1a1a1a;
+}
+.banner-bottom strong{
+    font-size: 18px;
+    color: #ffffff;
+}
+.banner-bottom img{
+
+    height: 253px;
+}
+.banner-bottom .treanding{
+    padding-top: 15px;
+}
+.banner-bottom .treanding h3 strong{
+ font-size: 18px;
+    color: #ffffff;
+}
+.banner-bottom .treanding h4{
+    background: #fabf2c;
+    padding:  4px 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.banner-bottom .treanding h5{
+    font-size: 16px;
+    margin-left: 8px;
+    color: #ffffff;
+
+}
+.banner-bottom .label-1 h5{
+ padding: 2px;
+
+}
+
+.banner-bottom p{
+    color: #666666;
+}
+
+.banner-bottom .label-1 h5 span{
+    background: gray;
+}
+.banner-bottom .form-control{
+ border-color: #CCCCCC;
+    background: #1a1a1a;
+    width: 60%;
+}
+.banner-bottom .label-ctn{
+    color: #CCCCCC;
+
+}
+
+
+
+/*social sectionc css start*/
+.social-section{
+    background: #363636;
+    padding: 10px;
+}
+.social-section .fa-facebook{
+    font-size: 40px;
+}
+
+/*footer section css start*/
+.footer{
+    background: #1a1a1a;
+}
+.footer h3 strong{
+    font-size: 18px;
+    color: #ffffff;
+}
+.fotter  label p{
+    color: #666666;
+}
+.footer .form-control{
+    border-color: #666666;
+    background: #262626;
+    width: 60%;
+}
+.footer h6{
+    font-size: 15px;
+    color: #ffffff;
+}
+.footer p{
+   color: #666666;
+}
+
+/*last section css*/
+.last-section{
+    background: #1a1a1a;
+    border-top: 1px solid #666666;
+}
+
+.last-section .lower-footer p a{
+    color: #666666;
+}
+.last-section .lower-footer li a{
+    color: #666666;
+    font-size: 15px;
+}
+.last-section .lower-footer li a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (max-device-width:778px) {
+     .header-top  {
+         height: 195px;
+     }
+     .header-top .header-t-p{
+         text-align: center;
+         margin: 0;
+     }
+     .header-bottom .header-bottom-2{
+         flex-direction: column;
+     }
+     .header-bottom h5{
+         font-size: 13px;
+         margin-top: 2px;
+     }
+     .header-bottom img{
+         width: 58%;
+     }
+     /*.banner .banner-2{*/
+         /*flex-direction: column;*/
+     /*}*/
+     .banner .b1-img{
+         height: 240px;
+     }
+     .banner .b2-img{
+         height: 156px;
+     }
+
+
+
+
+ }
